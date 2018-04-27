@@ -1,0 +1,7 @@
+To: {TO_MAIL_ADDRESS}
+From: {AUTH_USER}
+Subject: Password expired reminder
+
+  Your ldap password will expire in {PWD_EXPIRE_DAY} days.
+  Please modify your password as soon as possible.
+
