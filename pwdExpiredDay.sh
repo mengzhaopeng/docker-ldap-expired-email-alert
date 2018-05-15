@@ -22,7 +22,7 @@ MAIL_TEMPLATE="/usr/local/bin/mail.template"
 MAIL_FILE="/usr/local/bin/mail.file"
 
 # Log file
-LOG_FILE=/var/log/pwdExpiredDay/pwdExpiredDay.log
+LOG_FILE=/var/log/pwdExpiredDay/pwdExpiredDay-`date "+%Y-%m-%d"`.log
 
 # Functions - Retrieves date in seconds.
 getTimeInSeconds() {
