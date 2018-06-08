@@ -17,6 +17,9 @@ ENV LDAP_SEARCHBASE ou=accounts,dc=example,dc=com
 ENV PWD_EXPIRE_DAY 7
 ENV PWD_MAX_AGE 90
 
+ENV SSP_URL ssp_url
+ENV TECHNICAL_SUPPORT technical_support
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
     gawk ldap-utils mailutils ssmtp && rm -rf /var/lib/apt/lists/*
 

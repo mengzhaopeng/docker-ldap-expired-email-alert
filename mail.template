@@ -5,3 +5,5 @@ Subject: Password expired reminder
   Your ldap password will expire in {PWD_EXPIRE_DAY} days.
   Please modify your password as soon as possible.
 
+  Change the password: {SSP_URL}
+  Technical support: {TECHNICAL_SUPPORT}
